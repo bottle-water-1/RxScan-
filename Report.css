@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(135deg, #dbeafe, #ffffff, #dcfce7);
+}
+
+.section-two {
+    padding: 150px 0 60px;
+}
+
+.Notice {
+    text-align: left;
+    width: 700px;
+    margin: 50px 0 0;
+    padding: 20px;
+    background: #fef2f2;
+    border: 2px solid #fecaca;
+    border-radius: 10px;
+}
+
+.Notice h3 {
+    color: #991b1b;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.Notice svg {
+    color: #dc2626;
+    margin-right: 10px;
+}
+
+.Notice p {
+    color: #b91c1c;
+    padding: 0 35px;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+.form-section form {
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border: 2px solid #d1d5db;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-section form label {
+    font-size: 1.15rem;
+    color: #374151;
+    font-weight: 600;
+}
+
+form input {
+    margin: 15px 0 25px; 
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 15px 0 25px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 300;
+    height: 150px;
+    line-height: 1.5;
+}
+
+.butoom {
+    margin-bottom: 10px;
+}
+
+form p {
+    margin-bottom: 30px;
+    color: #6b7280;
+    font-size: .85rem;
+}
+
+.btn_report {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+
+.section-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.section-12-content {
+    display: block;
+    background: #dbeafe;
+    color: #1e40af;
+    padding: 30px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.section-12-content h3 {
+    font-size: 1.5rem;
+    margin: 15px 20px;
+}
+
+.section-12-content li {
+    line-height: 2;
+}

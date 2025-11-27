@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Poppins", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 100px 80px;
+    margin: auto;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+/* ############## NAV ################## */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.7rem;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 0;
+    color: #1a1a1a;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: #1e67ff;
+    transition: .5s ease-in-out;
+}
+
+.logo h2 {
+    color: #000;
+    font-size: 25px;
+}
+
+.logo {
+    display: flex;
+}
+.logo svg {
+    width: 50px;
+    height: 35px;
+    color: #1e67ff;
+}
+
+/* ############ SECTION ONE ##################### */
+
+.section-one {
+    background: #e6eeFF;
+    padding-top: 140px;
+}
+
+.shield {
+    width: 70px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #dbeafe;
+    position: relative;
+}
+
+.shield svg {
+    width: 100px;
+    height: 50px;
+    color: #1e67ff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-one h1 {
+    margin: 35px 0 20px;
+    font-size: 4.2rem;
+}
+
+.section-one h1 span {
+    color: #1e67ff;
+}
+
+.section-one .desc {
+    font-size: 1.5rem;
+    color: #6f7a85;
+    line-height: 1.5;
+}
+
+.section-one input {
+    margin: 30px 10px;
+    padding: 15px;
+    font-size: 1rem;
+    width: 350px;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    color: #000000;
+    outline: none;
+}
+
+.section-one input:focus {
+    outline: none;
+    border-color: #1e67ff;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.btn {
+    background-color: #1e67ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transition: .3s ease-in-out;
+}
+
+.btn svg {
+    margin-right: 0;
+}
+
+.section-one .Sn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.section-one .Sn p {
+    color: #6f7a85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    color: #6f7a85;
+}
+
+.star {
+    color: gold;
+}
+
+.s-shield {
+    color: #16a349;
+}
+
+/* ################# SECTION TWO ##################### */
+
+.section-two h1, .section-3 h1, .section-4 h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.section-two p, .section-3 p{
+    font-size: 20px;
+    color: #6f7a85;
+}
+
+.section-two .parent, .section-3 .parent, footer .parent {
+    padding: 100px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.section-two .parent .child, .section-3 .parent .child-2 {
+    padding: 30px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.section-two .parent .child:hover {
+    border-color: #bfdbfe;
+}
+
+.section-two .symbols {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.postion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 35px;
+}
+
+.section-two .mobile {
+    background: #dbeafe;
+}
+
+.mobile svg {
+    color: #1d4ed8;
+}
+
+.section-two .search {
+    background: #defce7;
+}
+
+.search svg {
+    color: #16a349;
+}
+
+.time {
+    background: #f3e8ff;
+}
+
+.time svg {
+    color: #9333ea;
+}
+
+.action {
+    background: #fed799;
+}
+
+.action svg {
+    color: #ea580c;
+}
+
+.numbers {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.child h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.child p {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 350;
+}
+
+/* ############### SECTION 3 ############################## */
+
+.section-3 {
+    background: #f9fafb;
+}
+
+.signs svg {
+    width: 60px;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.child-2 h3 {
+    font-size: 1.5rem;
+}
+
+.child-2 p {
+    font-size: 1rem;
+    margin: 30px 0;
+}
+
+.child-2 .box {
+    text-align: left;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    color: #6f7a85;
+}
+
+.child-2 .box h6 {
+    font-size: 13.5px;
+    margin: 10px 0 0;
+}
+
+.box ul {
+    text-align: left;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.section-3 .parent .Genuine {
+    background: #f0fdf4;
+    border: 2px solid #bbf7d0;
+    color: #166534;
+}
+
+.Genuine p {
+    color: #16a349;
+}
+
+.section-3 .parent .found {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #991b1b;
+}
+
+.found p, .found svg {
+    color: #dc2626;
+}
+
+.section-3 .parent .expired {
+    background: #fffbeb;
+    border-color: #fed7aa;
+    color: #9a3412;
+}
+
+.expired p, .expired svg {
+    color: #ea580c;
+}
+
+
+/* ############## SECTION 4 ################# */
+
+.section-4 {
+    background: #1e67ff;
+    color: #ccc;
+    font-size: 25px;
+}
+.section-4 p {
+    margin-bottom: 40px;
+}
+.btn-2 {
+    width: 100%;
+    background: #ffffff;
+    color: #1e67ff;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+.btn-2 svg {
+    margin: 0 10px;
+}
+
+.btn-21 {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-21:hover {
+    background: #fff;
+    color: #1e67ff;
+    border-color: #1e67ff;
+}
+
+
+/* ############### FOOTER ################# */
+
+footer {
+    background: #111827;
+    padding: 80px 70px;
+    color: #9ca3af;
+    line-height: 2;
+}
+
+footer .parent {
+    padding: 0;
+}
+
+footer .logo h2, footer .child h3 {
+    color: #fff;
+}
+
+footer .child h3 {
+    margin-bottom: 30px;
+}
+
+footer ul {
+    text-align: left;
+    padding: 0 0 100px 0;
+}
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #9ca3af;
+    line-height: 2;
+}
+
+footer hr {
+    font-weight: lighter;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.delay {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+}
+
+.delay.show {
+    opacity: 1;
+    transform: translateY(0);
+}
