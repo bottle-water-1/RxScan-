@@ -441,3 +441,96 @@ footer p {
     opacity: 1;
     transform: translateY(0);
 }
+
+
+
+
+
+/* ============================
+   HAMBURGER DEFAULT (HIDDEN)
+============================= */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ============================
+   MOBILE NAVIGATION
+============================= */
+@media (max-width: 900px) {
+   
+    /* Show hamburger */
+    .nav-toggle {
+        display: block;
+        z-index: 2000;
+    }
+
+    /* Stack nav elements */
+    nav {
+        padding: 15px 30px;
+    }
+
+    /* Hide the menu by default on mobile */
+    nav ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background: #fff;
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        padding: 20px 0;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    /* When opened */
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    /* General container padding fix */
+    .container {
+        padding: 100px 25px;
+    }
+
+    /* Stats in home page vertical */
+    .Sn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Forms & boxes full width */
+    .Notice,
+    .form-section form,
+    .section-12-content {
+        width: 95% !important;
+        margin: auto;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 500px) {
+    .section-one input {
+        width: 90% !important;
+    }
+
+    .section-one h1 {
+        font-size: 2.4rem !important;
+    }
+    
+}

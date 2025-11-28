@@ -14,17 +14,9 @@ const observer = new IntersectionObserver((entries) => {
 
 
 
-  let box1 = document.getElementsByClassName('box-1');
-  let box2 = document.querySelectorAll('.box-2')
-  let span = document.getElementsByClassName('span');
-  let Pa = document.getElementsByClassName('P');
-
-  for (let i = 0; i < box2.length; i++) {
-    box2[i].addEventListener("click", function() {
-      if (Pa[i].style.display === "none") {
-        Pa[i].style.display = "block";
-      }else{
-      console.log("worked")
-      }
-    })
-  }
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector("nav ul");
+  
+  navToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("open");
+  });
