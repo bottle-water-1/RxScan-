@@ -133,7 +133,7 @@ nav ul li a:hover {
     padding: 10px 15px;
     font-size: 1.3rem;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 150px;
     cursor: pointer;
 }
@@ -505,11 +505,11 @@ footer p {
 
     /* General container padding fix */
     .container {
-        padding: 100px 25px;
+        padding: 100px 25px 40px;
     }
 
     /* Stats in home page vertical */
-    .Sn {
+    .section-one .Sn {
         flex-direction: column;
         gap: 15px;
     }
@@ -525,12 +525,26 @@ footer p {
 
 /* Extra small screens */
 @media (max-width: 500px) {
-    .section-one input {
-        width: 90% !important;
+    .section-one input{
+        width: 100% !important;
+        margin-left: 0;
     }
 
     .section-one h1 {
         font-size: 2.4rem !important;
     }
     
+    .section-one .btn {
+        width: 100% !important;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .section-one p.desc {
+        font-size: 1.rem !important;
+    }
+
+    .faq-item .faq-question h3 {
+        font-size: 1rem;
+    }
 }

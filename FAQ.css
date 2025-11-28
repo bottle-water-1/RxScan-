@@ -30,6 +30,8 @@
     font-weight: 600;
     color: #1f2937;
     margin: 0;
+    line-height: 1.5;
+    text-align: left;
   }
   
   .faq-toggle {
@@ -39,6 +41,7 @@
     background: none;
     border: none;
     cursor: pointer;
+    margin-left: 10px;
   }
   
   .faq-answer {
