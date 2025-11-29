@@ -547,4 +547,16 @@ footer p {
     .faq-item .faq-question h3 {
         font-size: 1rem;
     }
+
+    section.section-two {
+        padding: 140px 10px 30px;
+    }
+
+    section.section-12 {
+        margin: 10px;
+    }
+
+    .section-12-content {
+        padding: 0;
+    }
 }
